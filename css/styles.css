@@ -60,6 +60,8 @@ body {
     background-color: #ececec;
     color: #989898;
     transition: all .2s ease;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 0 #d3d3d3;
 }
 
 .hvrbox:hover {
