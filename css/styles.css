@@ -66,8 +66,10 @@ body {
 
 .hvrbox:hover {
     cursor: pointer;
-    background-color: #12558a;
-    color: #fff;
+    background-color: #fff;
+    color: #12558a;
+    transform: scale(1.01);
+    box-shadow: 0 0 0 0 #fff;
 }
 
 .hvrbox .icn {
@@ -88,6 +90,7 @@ body {
     align-items: center;
     padding: 10px 30px;
     font-size: 20px;
+    font-weight: 700;
 }
 
 .hr {
@@ -128,6 +131,7 @@ body {
     color: #fff;
     background-color: #12558a;
     font-size: 30px;
+    box-shadow: 0 0 4px 0 #d3d3d3;
 }
 
 .boxicn .cnt {
