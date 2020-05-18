@@ -185,6 +185,7 @@ div.inline {
     }
     .info {
         width: 100%;
+        padding: 20px;
         top: 15% !important;
     }
 }
