@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/sequence.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -197,7 +199,15 @@
         <div class="container">
             <div class="row mx-0 py-4">
                 <div class="col-md-5 col-lg-4 d-flex align-items-center">
-                    <img class="w-100" src="img/mob-toorso.png" alt="">
+
+                    <div class="toorso-slider owl-carousel owl-theme">
+                        <div class="item">
+                            <img class="w-100" src="img/mob-toorso.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="w-100" src="img/mob-toorso.png" alt="">
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-7 col-lg-8 d-flex align-items-center">
                     <div class="w-100">
@@ -209,15 +219,31 @@
                             tempore? Explicabo, quaerat.</p>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quod labore natus quos et repellat distinctio explicabo, cupiditate officia ipsam, dolores voluptatum, magni fugit doloremque quam ex vel ea rem magnam odio
                             tempore? Explicabo, quaerat.</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita nam aspernatur itaque officiis nostrum aliquid voluptates? Earum, officia sapiente id qui itaque corrupti accusamus quod?</p>
+                        <div class="row mx-0">
+                            <div class="col-lg-5 px-0 py-2">
+                                <button class="btn-blue">Read More <i class="fa fa-angle-double-right ml-2" aria-hidden="true"></i></button>
+                            </div>
+                            <div class="col-lg-7 px-0 py-2 d-flex justify-content-lg-end">
+                                <div>
+                                    <button class="btn btn-dark btn-icon-text"> <i class="fa fa-apple btn-icon-prepend mdi-36px"></i> <span class="d-inline-block text-left"> <small class="font-weight-light d-block">Available on the</small> App Store </span> </button>
+                                    <button class="btn btn-dark btn-icon-text"> <i class="fa fa-android btn-icon-prepend mdi-36px"></i> <span class="d-inline-block text-left"> <small class="font-weight-light d-block">Get it on the</small> Google Play </span> </button>                                    </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <footer>
+        footer
+    </footer>
+
 
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script>
         jQuery(document).ready(function($) {
             $(".boxicn").hover(
@@ -231,6 +257,21 @@
                 }
             );
         });
+
+        $('.toorso-slider').owlCarousel({
+            dots: false,
+            loop: true,
+            margin: 0,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        })
     </script>
     <script src="js/sequence.jquery-min.js"></script>
     <script src="js/setting.js"></script>
