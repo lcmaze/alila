@@ -175,8 +175,8 @@ body {
 .bg2 {
     background-color: #e9e9e9;
     background-image: url(../img/greybg2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    /* background-size: cover; */
 }
 
 .social {
