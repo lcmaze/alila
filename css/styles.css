@@ -2,12 +2,35 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-.navbar-brand img {
+@font-face {
+    font-family: iccn;
+    src: url(../fonts/Alila-Icon-Font.ttf);
+}
+
+.height-setter {
+    height: 77px;
+}
+
+.nav-brand {
     width: 200px;
+    transition: all .2s;
+}
+
+.nav-brand2 {
+    width: 180px;
 }
 
 nav {
     border-top: 4px solid #12558a;
+    position: fixed !important;
+    z-index: 100;
+    width: 100%;
+    box-shadow: 0 0 5px 0 #3d3d3d80;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav li:last-child {
+    border-right: 1px solid #eaeaea;
 }
 
 .nav-item .nav-link {
@@ -15,8 +38,16 @@ nav {
     font-weight: 600;
     text-align: center;
     display: block;
-    padding: 25px !important;
     border-left: 1px solid #eaeaea;
+}
+
+.padd {
+    padding: 35px 14px !important;
+    transition: all .2s;
+}
+
+.padd2 {
+    padding: 25px 12px !important;
 }
 
 .nav-item .nav-link:hover {
@@ -45,6 +76,11 @@ nav {
     font-size: 16px;
     text-transform: uppercase;
     line-height: 22px;
+    transition: all .2s;
+}
+
+.phone2 {
+    min-width: 240px;
 }
 
 .phone i {
@@ -164,6 +200,8 @@ nav {
 
 .hvrbox .icn i {
     font-size: 40px;
+    font-family: 'iccn';
+    font-style: normal;
 }
 
 .hvrbox .cnt {
@@ -215,6 +253,8 @@ nav {
     background-color: #12558a;
     font-size: 30px;
     box-shadow: 0 0 4px 0 #d3d3d3;
+    font-family: 'iccn';
+    font-style: normal;
 }
 
 .boxicn .cnt {
@@ -243,9 +283,12 @@ nav {
 }
 
 .toorso-logo {
-    width: 160px;
-    object-fit: contain;
-    margin-left: 10px;
+    font-family: 'iccn';
+    font-size: 135px;
+    color: #ca161e;
+    font-style: unset;
+    line-height: 35px;
+    padding-left: 10px;
 }
 
 .mdi-36px {
@@ -267,10 +310,12 @@ nav {
     height: 100%;
 }
 
-.social .sicons {
+.social .sicons i {
     color: #8e8e8e;
     display: block;
     font-size: 24px;
+    font-family: 'iccn';
+    font-style: unset;
 }
 
 .addr {
@@ -368,8 +413,8 @@ nav {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1340px) {
     .container {
-        max-width: 1200px !important;
+        max-width: 1330px !important;
     }
 }

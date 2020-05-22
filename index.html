@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -19,48 +20,57 @@
     <script>
         new WOW().init();
     </script>
+
     <title>Alila Infotech</title>
 </head>
 
 <body>
 
 
-    <nav class="navbar navbar-expand-xl navbar-light bg-light p-0">
-        <a class="navbar-brand py-2 pl-3 pl-xl-5" href="index.html"><img src="img/logo-blue.png" alt=""></a>
-        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container">
+            <a class="p-3 p-xl-0" href="index.html"><img class="nav-brand" src="img/logo-blue.png" alt=""></a>
+            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home <span>Get Start</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">About Us<span>Who We Are</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Our Services<span>What We Do</span></a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" id="nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link padd active" href="index.html">Home <span>Get Start</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padd" href="index.html">About Us<span>Who We Are</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padd" href="index.html">Our Services<span>What We Do</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padd" href="index.html">Our Services<span>What We Do</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padd" href="index.html">Our Services<span>What We Do</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link padd" href="#" id="nav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Partners <span>Our Products</span>
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="nav1">
-                        <a class="dropdown-item" href="#">Toorso - Travel & Tourism</a>
-                        <a class="dropdown-item" href="#">Toorso - Travel & Tourism</a>
-                    </div>
-                </li>
-                <div class="phone px-3 d-flex align-items-center">
+                        <div class="dropdown-menu" aria-labelledby="nav1">
+                            <a class="dropdown-item" href="#">Toorso - Travel & Tourism</a>
+                            <a class="dropdown-item" href="#">Toorso - Travel & Tourism</a>
+                        </div>
+                    </li>
+                    <!-- <div class="phone px-3 d-flex align-items-center">
                     <div class="w-100">
                         <i class="fa fa-phone" aria-hidden="true"></i> Call Us Now!<br><span>+91 9995634789</span>
                     </div>
-                </div>
-            </ul>
+                </div> -->
+                </ul>
+            </div>
         </div>
     </nav>
 
-
+    <div class="height-setter"></div>
     <!-- css in sequence.css  -->
     <div class="seq">
         <div class="container">
@@ -106,12 +116,11 @@
         </div>
     </div>
 
-
     <section>
         <div class="container">
             <div class="row mx-0 py-3">
                 <div class="col-xl-7 px-0 py-1 text-center text-xl-left wow fadeIn">
-                    <h5 class="offer-text">dont miss this special offer for limited time only</h5>
+                    <h5 class="offer-text pt-2">dont miss this special offer for limited time only</h5>
                 </div>
                 <div class="col-xl-5 px-0 btns py-1">
                     <button class="btn-blue wow fadeIn"><i class="fa fa-file-text-o mr-2" aria-hidden="true"></i> Get <span class="d-none d-md-inline">Lowest</span> Quote</button>
@@ -137,19 +146,19 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="hvrbox mb-3 mt-3 wow fadeIn">
-                        <div class="icn"><i class="fa fa-eercast" aria-hidden="true"></i></div>
+                        <div class="icn"><i>R</i></div>
                         <div class="cnt">100% Satisfaction Guaranteed</div>
                     </div>
                     <div class="hvrbox mb-3 wow fadeIn">
-                        <div class="icn"><i class="fa fa-eercast" aria-hidden="true"></i></div>
+                        <div class="icn"><i>K</i></div>
                         <div class="cnt">100% Satisfaction Guaranteed</div>
                     </div>
                     <div class="hvrbox mb-3 wow fadeIn">
-                        <div class="icn"><i class="fa fa-eercast" aria-hidden="true"></i></div>
+                        <div class="icn"><i>J</i></div>
                         <div class="cnt">100% Satisfaction Guaranteed</div>
                     </div>
                     <div class="hvrbox mb-3 wow fadeIn">
-                        <div class="icn"><i class="fa fa-eercast" aria-hidden="true"></i></div>
+                        <div class="icn"><i>P</i></div>
                         <div class="cnt">100% Satisfaction Guaranteed</div>
                     </div>
                 </div>
@@ -166,7 +175,7 @@
             <div class="row mx-0 py-4">
                 <div class="col-md-6 col-lg-4 p-3">
                     <div class="boxicn my-3">
-                        <div class="icn"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        <div class="icn"><i>O</i></div>
                         <div class="cnt">
                             <h5>Website Designing</h5>
                             <p>We provide web development solutions that are affordable, professional</p>
@@ -176,7 +185,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 p-3">
                     <div class="boxicn my-3">
-                        <div class="icn"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        <div class="icn"><i>S</i></div>
                         <div class="cnt">
                             <h5>Website Designing</h5>
                             <p>We provide web development solutions that are affordable, professional</p>
@@ -186,7 +195,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 p-3">
                     <div class="boxicn my-3">
-                        <div class="icn"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        <div class="icn"><i>C</i></div>
                         <div class="cnt">
                             <h5>Website Designing</h5>
                             <p>We provide web development solutions that are affordable, professional</p>
@@ -196,7 +205,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 p-3">
                     <div class="boxicn my-3">
-                        <div class="icn"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        <div class="icn"><i>M</i></div>
                         <div class="cnt">
                             <h5>Website Designing</h5>
                             <p>We provide web development solutions that are affordable, professional</p>
@@ -206,7 +215,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 p-3">
                     <div class="boxicn my-3">
-                        <div class="icn"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        <div class="icn"><i>H</i></div>
                         <div class="cnt">
                             <h5>Website Designing</h5>
                             <p>We provide web development solutions that are affordable, professional</p>
@@ -216,7 +225,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 p-3">
                     <div class="boxicn my-3">
-                        <div class="icn"><i class="fa fa-desktop" aria-hidden="true"></i></div>
+                        <div class="icn"><i>V</i></div>
                         <div class="cnt">
                             <h5>Website Designing</h5>
                             <p>We provide web development solutions that are affordable, professional</p>
@@ -241,16 +250,13 @@
                         <div class="item">
                             <img class="w-100" src="img/mob-toorso.png" alt="">
                         </div>
-                        <div class="item">
-                            <img class="w-100" src="img/mob-toorso.png" alt="">
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-7 col-lg-8 d-flex align-items-center">
                     <div class="w-100">
                         <div class="toorso-cap d-flex mb-3">
                             <h2>Explore <span>your tour</span> with <span class="red">tour so</span>lution</h2>
-                            <img class="toorso-logo wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s" src="img/toorso.jpg" alt="">
+                            <i class="toorso-logo wow fadeInDown" data-wow-duration="2s" data-wow-delay="0.2s">T</i>
                         </div>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quod labore natus quos et repellat distinctio explicabo, cupiditate officia ipsam, dolores voluptatum, magni fugit doloremque quam ex vel ea rem magnam odio
                             tempore? Explicabo, quaerat.</p>
@@ -279,16 +285,16 @@
                 <div class="col-md-6 col-xl-3 py-2">
                     <div class="social justify-content-xl-around w-100 pt-md-5">
                         <a href="" class="sicons p-3">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i>F</i>
                         </a>
                         <a href="" class="sicons p-3">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <i>L</i>
                         </a>
                         <a href="" class="sicons p-3">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i>W</i>
                         </a>
                         <a href="" class="sicons p-3">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i>E</i>
                         </a>
                     </div>
                 </div>
@@ -309,7 +315,7 @@
                 <div class="col-md-6 col-xl-3 py-2">
                     <div class="textus text-center-xl">
                         <i class="fa fa-whatsapp pb-2" aria-hidden="true"></i> Need Help? Chat With us<br>
-                        <button class="btn btn-outline-light mt-3">Chat</button>
+                        <a href="https://wa.me/919072944556" class="btn btn-outline-light mt-3">Chat</a>
                     </div>
                 </div>
             </div>
@@ -343,8 +349,7 @@
             loop: true,
             margin: 0,
             nav: false,
-            autoplay: true,
-            autoplayTimeout: 5000,
+            autoplay: false,
             autoplayHoverPause: true,
             responsive: {
                 0: {
@@ -353,6 +358,22 @@
             }
         })
     </script>
+
+    <script>
+        $(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll > 100) {
+                $('.nav-link').addClass('padd2');
+                $('.nav-brand').addClass('nav-brand2');
+                $('.phone').addClass('phone2');
+            } else {
+                $('.nav-link').removeClass('padd2');
+                $('.nav-brand').removeClass('nav-brand2');
+                $('.phone').removeClass('phone2');
+            }
+        })
+    </script>
+
     <script src="js/sequence.jquery-min.js"></script>
     <script src="js/setting.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
