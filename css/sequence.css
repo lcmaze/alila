@@ -30,7 +30,7 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 260px;
+    top: 320px;
     height: 36px;
     width: 30px;
     z-index: 20;
@@ -68,7 +68,7 @@
 }
 
 #sequence {
-    height: 320px;
+    height: 380px;
     margin: 0 auto;
     position: relative;
     max-width: 1400px;
@@ -170,7 +170,7 @@ div.inline {
     width: 400px;
 }
 
-.info div h2 {
+.info div .mein {
     background-color: #fff;
     color: #12558a;
     font-weight: 700;
@@ -178,6 +178,82 @@ div.inline {
     padding: 4px 8px;
     font-size: 17px;
     margin-bottom: 32px;
+}
+
+.yello,
+.white {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.white h2 {
+    background-color: #fff;
+    color: #12558a;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 24px;
+}
+
+.white h3 {
+    background-color: #fff;
+    color: #12558a;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+.white p {
+    color: #fff;
+    padding: 20px 0;
+}
+
+.white a {
+    background-color: #fff;
+    color: #12558a;
+    padding: 7px 12px;
+    border-radius: 6px;
+}
+
+.white a:hover {
+    text-decoration: none;
+    background-color: #eaeaea;
+}
+
+.yello h2 {
+    background-color: #fff385;
+    color: #12558a;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 24px;
+}
+
+.yello h3 {
+    background-color: #fff385;
+    color: #12558a;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+.yello p {
+    color: #fff385;
+    padding: 20px 0;
+}
+
+.yello a {
+    background-color: #fff385;
+    color: #12558a;
+    padding: 7px 12px;
+    border-radius: 6px;
+}
+
+.yello a:hover {
+    text-decoration: none;
+    background-color: #eaeaea;
 }
 
 @media (max-width: 767.98px) {
