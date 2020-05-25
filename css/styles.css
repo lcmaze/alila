@@ -492,6 +492,47 @@ nav {
     font-style: unset;
 }
 
+.sections button:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.port-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sections-res .row .port-img {
+    display: none;
+    opacity: 0;
+}
+
+.sections-res .row .port-img.active {
+    display: block;
+    opacity: 1;
+    -webkit-animation: fadeIn 0.65s ease forwards;
+    animation: fadeIn 0.65s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 @media (max-width: 767.98px) {
     .toorso {
         display: none;

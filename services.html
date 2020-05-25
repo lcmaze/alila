@@ -307,49 +307,7 @@
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script>
-        jQuery(document).ready(function($) {
-            $(".boxicn").hover(
-                function() {
-                    $(this).find('.icn i').addClass("animated rotateIn");
-                    $(this).find('.cnt h5').addClass("animated fadeInUp hoverh5");
-                },
-                function() {
-                    $(this).find('.icn i').removeClass("animated rotateIn");
-                    $(this).find('.cnt h5').removeClass("animated fadeInUp hoverh5");
-                }
-            );
-        });
-
-        $('.toorso-slider').owlCarousel({
-            dots: false,
-            loop: true,
-            margin: 0,
-            nav: false,
-            autoplay: false,
-            autoplayHoverPause: true,
-            responsive: {
-                0: {
-                    items: 1
-                }
-            }
-        })
-    </script>
-
-    <script>
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
-            if (scroll > 100) {
-                $('.nav-link').addClass('padd2');
-                $('.nav-brand').addClass('nav-brand2');
-                $('.phone').addClass('phone2');
-            } else {
-                $('.nav-link').removeClass('padd2');
-                $('.nav-brand').removeClass('nav-brand2');
-                $('.phone').removeClass('phone2');
-            }
-        })
-    </script>
+    <script src="js/scriptz.js"></script>
 
     <script src="js/sequence.jquery-min.js"></script>
     <script src="js/setting.js"></script>
