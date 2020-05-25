@@ -515,6 +515,24 @@ nav {
     animation: fadeIn 0.65s ease forwards;
 }
 
+.sections-res .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #12558a90;
+    color: #fff;
+}
+
+.port-img:hover .overlay {
+    opacity: 1;
+}
+
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
